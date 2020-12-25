@@ -1,0 +1,25 @@
+body {
+    background-color: #cc99ff;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/*the period will target the class*/
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+/*the # will target the ID*/
+/*use sparingly*/
+
+#circle{
+    color: darkred;
+    font-size: 40px;
+
+}
