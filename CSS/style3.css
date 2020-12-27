@@ -13,16 +13,34 @@ body{
 
 }
 
-h1 {
+/*grouping separated by comma...can also do class and ID*/
+h1, h2, h3 {
     color: #ffffff;
     text-shadow: 2px 2px 5px black;
+    line-height: 1rem;
+    font-family: sans-serif;
 }
 
-h2 {
-    color: rgb(0, 204, 255);
-    text-shadow: 1px 1px 3px darkblue;
-}
+
+
+/*h2 {*/
+/*    color: rgb(0, 204, 255);*/
+/*    text-shadow: 1px 1px 3px darkblue;*/
+/*}*/
 
 .border_img{
     border-right: 2px solid red;
+}
+
+/*ul is parent, li is child*/
+/*decendant selectors*/
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+/*The > says that if there is a ul, then*/
+/*target the li only one level deep*/
+ul > li {
+    color: yellow;
 }
