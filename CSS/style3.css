@@ -1,28 +1,31 @@
-html {
-    font-family: "Times New Roman", serif, sans-serif;
-}
+
 
 body{
-    /*background-image: url("../assets/zebra.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
     background-color: #444;
     text-align: center;
 }
 
 
-/*grouping separated by comma...can also do class and ID*/
-h1, h2, h3 {
+
+h1 {
     color: #ffffff;
-    /*text-shadow: 2px 2px 5px black;*/
-    line-height: 1rem;
-    font-style: italic;
+    font-family: 'Bangers', cursive;
+    line-height: 2rem;
 }
 
 h2 {
-    font-size: 30px;
-    font-style: normal;
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    line-height: 2rem;
 }
+
+h3 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    line-height: 2rem;
+}
+
+
 .formatting {
     font-size: 25px;
     line-height: 2em;
