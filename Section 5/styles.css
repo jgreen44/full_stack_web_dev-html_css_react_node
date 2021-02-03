@@ -16,7 +16,11 @@ label {
 p {
     font-size: 28px;
     line-height: 1.2;
+}
 
+article p {
+    font-size: 35px;
+    padding: 20px;
 }
 
 .container {
@@ -40,18 +44,53 @@ p {
     content: "";
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 * {
     box-sizing: border-box;
@@ -119,6 +158,13 @@ div.box {
     0 2px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+div.slopeIcon img {
+    display: block;
+    margin: auto;
+    box-shadow: -2px -2px 20px 2px rgba(0, 0, 0, .15),
+    2px 2px 17px 2px rgba(0, 0, 0, 1);
+}
+
 button {
     font-size: 32px;
     font-weight: 700;
@@ -173,6 +219,29 @@ input[type="text"] {
     border-radius: 7px;
 }
 
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%;
+}
+
+footer.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color: white;
+    font-size: 22px;
+    line-height: 1.2;
+
+}
+
 /*############ Mobile ############*/
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
@@ -208,14 +277,35 @@ input[type="text"] {
         font-size: 50px;
     }
 
-    .col-6, .col-4 {
+    article p {
+        font-size: 25px;
+    }
+
+    .col-6,
+    .col-4,
+    .col-7,
+    .col-5 {
         width: 100%;
         margin: 0;
     }
 
+    .mobileStack {
+        width: 50%;
+        display: block;
+    }
+
+
     div.box {
         padding: 5px;
         display: block;
+    }
+
+    div.slopeIcon {
+        margin: 10px;
+    }
+
+    div.slopeIcon img {
+        width: 100%;
     }
 
     div.leftSide-col, div.rightSide-col {
