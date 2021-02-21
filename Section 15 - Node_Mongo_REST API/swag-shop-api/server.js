@@ -82,6 +82,6 @@ app.put('/wishlist/product/add', function (request, response) {
     });
 });
 
-app.listen(3000, function () {
+app.listen(3004, function () {
     console.log("Swag Shop API running on port 3000...");
 });
